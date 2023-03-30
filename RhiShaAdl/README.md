@@ -38,7 +38,5 @@ Finaaly when we try circular bit shift cipher we get the flag.
 
 We get the Flag 
 ```
-
 BITSCTF(RIVEST_KILLED_IT)
-
 ```
