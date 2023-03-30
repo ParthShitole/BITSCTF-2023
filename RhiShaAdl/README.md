@@ -30,4 +30,4 @@ We use dcode's cipher identifier to identify the type of cipher use you could us
 
 Finaaly when we try circular bit shift cipher we get the flag.
 
-![ALT](./decode3.png)
+![ALT](./dcode3.png)
