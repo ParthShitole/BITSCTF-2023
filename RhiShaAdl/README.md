@@ -18,5 +18,6 @@ c= 71153073495927524530875073841019988963102017554899828117829604569168525190245
 
 Our belief that rsa is used is further cemented by looking at the constants.
 
-We are clearly given the public key(n),Factor 1,Factor 2 and cipher text(c) in the text file.Solving the rsa alogorithm using these values is pretty easy as bith factors are given.Here i have used an online tool to decrypt the RSA data.
+We are clearly given the public key(n),Factor 1,e and cipher text(c) in the text file.Solving the rsa alogorithm using these values is pretty easy as bith factors are given.Here i have used an online tool to decrypt the RSA data.
 
+![dcode image](./dcode.png)
