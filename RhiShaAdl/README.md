@@ -21,3 +21,5 @@ Our belief that rsa is used is further cemented by looking at the constants.
 We are clearly given the public key(n),Factor 1,e and cipher text(c) in the text file.Solving the rsa alogorithm using these values is pretty easy as bith factors are given.Here i have used an online tool to decrypt the RSA data.
 
 ![dcode image](./dcode.png)
+
+dcode succesfully decrypts the rsa but we get some random text as output which means that the encrypted number cannot be directly converted into ascii text hinting us of multiple levels of encyption.So we take the numerical output of the rsa and try to find its encryption type.
