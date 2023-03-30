@@ -23,3 +23,11 @@ We are clearly given the public key(n),Factor 1,e and cipher text(c) in the text
 ![dcode image](./dcode.png)
 
 dcode succesfully decrypts the rsa but we get some random text as output which means that the encrypted number cannot be directly converted into ascii text hinting us of multiple levels of encyption.So we take the numerical output of the rsa and try to find its encryption type.
+
+We use dcode's cipher identifier to identify the type of cipher use you could use any other cipher identifier of your choice.We then try every possible cipher that dcode shows.
+
+![ALT](./dcode2.png)
+
+Finaaly when we try circular bit shift cipher we get the flag.
+
+![ALT](./decode3.png)
