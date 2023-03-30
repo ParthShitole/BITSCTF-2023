@@ -35,3 +35,10 @@ We use dcode's cipher identifier to identify the type of cipher use you could us
 Finaaly when we try circular bit shift cipher we get the flag.
 
 ![ALT](./dcode3.png)
+
+We get the Flag 
+```
+
+BITSCTF(RIVEST_KILLED_IT)
+
+```
