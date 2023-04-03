@@ -6,7 +6,7 @@ City police has recovered a file from a notorious hacker named **Anakin01** but 
 
 ## Solution
 
-We are given a file which appears to be a pdf file by looking at its extension but it cannot be opened directly.So to determine the file type we use the file command
+We are given a file which appears to be a pdf file by looking at its extension but it cannot be opened directly,So to determine the file type we use the file command.
 
 ```
 ┌──(kali㉿kali-raspberry-pi)-[~/Desktop/Bitskrieg/BITSCTF 2023/MessedUp]
@@ -15,7 +15,7 @@ chalfinal.pdf: data
 
 ```
 
-file command says that it is a data file which means that its unable to identify it as any datatype so to do a further analysis we check the header of the file
+file command says that it is a data file which means that it is unable to identify it as any known file type.We then decide to do a further analysis by checking the header of the file.
 
 ```
 
@@ -31,13 +31,13 @@ file command says that it is a data file which means that its unable to identify
 
 ```
 
-We can clearly observe that it is a png file which is corrupted so we use ghex to edit and repair the header and footer of the file
+We can clearly see that it is a png file which is corrupted so we use ghex to edit and repair the header and footer of the file.
 
 ![alt](./ghex1.png)
 
 ![alt](./ghex2.png)
 
-After we fix the image we can open it in any image viewer.At first the image appears to be a simple image of a horse but at closer look we can observe some rows of pixels are different than orginal image.
+After we fix the image we can open it in any image viewer.At first the image appears to be a simple image of a horse but after a closer look we see that some rows of pixels are different than the orginal image.
 
 ![alt](./gimp1.png)
 
@@ -68,11 +68,11 @@ After running this code we get a blurred image of the flag. :)
 
 Flag:BITSCTF{P1x3l_1357}
 
-Note: As a Bonus I have also uploaded the image encryption script
+Note: As a Bonus I have also uploaded the image encryption script.
 
 ## Author
 
-Anakin01
+Anakin01.
 
 
 
