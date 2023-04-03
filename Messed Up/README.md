@@ -4,7 +4,7 @@
 
 City police has recovered a file from a notorious hacker named **Anakin01** but the chief of police is visually impared can you help him find the flag
 
-##Solution
+## Solution
 
 We are given a file which appears to be a pdf file by looking at its extension but it cannot be opened directly.So to determine the file type we use the file command
 
