@@ -70,7 +70,7 @@ Flag:BITSCTF{P1x3l_1357}
 
 Note: As a Bonus I have also uploaded the image encryption script
 
-##Author
+## Author
 
 Anakin01
 
