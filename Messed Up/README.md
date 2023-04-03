@@ -64,6 +64,15 @@ new_img.save('decrypted.png')
 ```
 After running this code we get a blurred image of the flag. :)
 
+![alt](./flag.png)
+
+Flag:BITSCTF{P1x3l_1357}
+
+Note: As a Bonus I have also uploaded the image encryption script
+
+##Author
+
+Anakin01
 
 
 
