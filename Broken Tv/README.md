@@ -18,10 +18,10 @@ After extracting the data we get a zip file which is password protected.We crack
 
 After john succesfully cracks the password we use it to unzip the file.The extracted data contains more than 200 files with the extension .gpx.GPX files can be viewed using google maps or any other mapping software.
 
-The limitation of google maps is that it does allow multiple files to be uploaded at once so to counter this issue you can eihter write a code to merge all the gpx files or use can use the website (gpx studio)[https://gpx.studio/]. After uploading all the files on the website you get the flag written out.
+The limitation of google maps is that it does allow multiple files to be uploaded at once so to counter this issue you can eihter write a code to merge all the gpx files or use can use the website [gpx studio](https://gpx.studio/). After uploading all the files on the website you get the flag written out.
 
 
-!(alt)[./maps1.png]
+![alt](./maps1.png)
 
 Flag:BITSCTF{!_<3_GPX}
 
