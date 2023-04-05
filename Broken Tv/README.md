@@ -12,7 +12,8 @@ The links takes us to a youtube video which looks like a broken tv but if you ke
 
 ![alt](./youtube1.png)
 
-You can find more information regarding this tool at (infinite-storage-glitch)[https://github.com/DvorakDwarf/Infinite-Storage-Glitch]
+You can find more information regarding this tool at 
+(infinite-storage-glitch)[https://github.com/DvorakDwarf/Infinite-Storage-Glitch]
 
 After extracting the data we get a zip file which is password protected.We crack the password using john the ripper tool.You can refer this (link)[https://www.freecodecamp.org/news/crack-passwords-using-john-the-ripper-pentesting-tutorial/] to get more information abut john.
 
@@ -21,7 +22,7 @@ After john succesfully cracks the password we use it to unzip the file.The extra
 The limitation of google maps is that it does allow multiple files to be uploaded at once so to counter this issue you can eihter write a code to merge all the gpx files or use can use the website (gpx studio)[https://gpx.studio/]. After uploading all the files on the website you get the flag written out.
 
 
-!(alt)[maps1.png]
+!(alt)[./maps1.png]
 
 Flag:BITSCTF{!_<3_GPX}
 
