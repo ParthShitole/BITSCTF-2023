@@ -56,3 +56,30 @@ print("Extracted data:", extracted_data)
 ```
 The Extracted data gives us 
 
+```
+
+Extracted data: BITSCTF{f08aad35a8fde604f12af1f20d1c2f3aa1157f4e0be0a8a98e2bfefab7109d56}~á4ExTg`#Ý^··!×Á°°#x+ßac.³ëL<[_ï£E.ÓôÞf1¬#dr¦ãMEgO7ÊjY¿Dùë:ã×GÏôÉâú  )X`çztáÜi©âWåóÅú▒×:îè1å-mÂìíJiêþ³ %,jP¦=D,8ebÅDaÐöÅ4t©¤â¨¿ð+&?ÛÒóN$çÖ#Ì¦²qÊx£]N½
+                                                                                                        îÞ »ëúü­i¶T4¤^³ÀgæoYorB05%É°o8|òó½å-CæÂ4®¹vöÄ~ZyÎ×hùÇ´^"8~·>â(µiÝuîî
+w
+ É▒;Ü?eB¨ªY­Uæ«¥H)ótêÇbLjóàc½ÿ^ó°¸7ß£Mº#Ü!7J\¯Á,¡C^¶¾æF¨Álã|aoii²óâÉQUÙÛzªy>ö#ñ¿¹MÈY½~ABÍ·ï¹>üb ÄòQ(gñÓå¤/tw8|¬Nä¹¯|°äCÿ
+                                                                                                                        5­\S¤×X¥§Ì~b=Ã¼▒jsËOÎ}ã~¿Gâj¿Õ¸]~±yåÑ»¹¾MrPQñ¥Dnæ@+ÿ!+ÁûVFþ®ÚåE¹²$ZêËQ|ò·kMÀäXõÁmÃ¤ò/æ²è#B½u^
+"=4ÏAÇÐ3^wUÖÆÐB!|ü¡8¨ê¬8ü¦>®ö¹Êÿ{oåÿ!ãËÆpÇ
+                                           ²
+
+í¿zúÃnKì[ZwÕ©Ä±¥{$Uh#g¨){ÝQðê§$qT}©ßfýñÖúµrÖmù´·&ÍÎIj>¨ù·ð¤×DÁDg-7Xé3ýK"¹ö/¾ÎùV¥ûæìÉÈnÊê3øcY¯;¤¶G#¿þO;hî3è¬%ØÞ®Oà'ë¿ìtþ¶}ÆEï¿W.Ã¾o]éWêBKláP39Atõ"¿Ø7ÈÌÌ{j¹Ö}i&Wå
+»áàÇm[Y>eò¿PL,±¦msâokcOjK<92|ã\Ó>¹Á¤´µLpì¢öû±£ýååêÒ
+                                      ñN¥Dx©ô»´9Vé@¿~õiÅ×ö8­H×▒f?ã5
+¬ÄÜDk²JÀ.\;-¡²¬nÉ;¾!¸;9Ù3ÝzS××âÓö¼Øâ¹ÅÞ¦SÄzaNw0%
+                                                2Òº£¹Æ#3Qz×.......
+                                               
+```                                             
+We get the flag but it appears to be encrypted. Once again if we carefull go through the description it clearly hints us to use blowfish decryption.We can use any online blowfish decryption tool with the key "persistance" to get the flag
+
+![alt](./blowfish.png)
+
+Flag :BITSCTF{1_L0v3_LSB_5t3g}
+
+## Author
+
+**Anakin01**
+
