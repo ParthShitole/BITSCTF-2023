@@ -12,10 +12,9 @@ The links takes us to a youtube video which looks like a broken tv but if you ke
 
 ![alt](./youtube1.png)
 
-You can find more information regarding this tool at 
-(infinite-storage-glitch)[https://github.com/DvorakDwarf/Infinite-Storage-Glitch]
+You can find more information regarding this tool at [infinite-storage-glitch](https://github.com/DvorakDwarf/Infinite-Storage-Glitch)
 
-After extracting the data we get a zip file which is password protected.We crack the password using john the ripper tool.You can refer this (link)[https://www.freecodecamp.org/news/crack-passwords-using-john-the-ripper-pentesting-tutorial/] to get more information abut john.
+After extracting the data we get a zip file which is password protected.We crack the password using john the ripper tool.You can refer this [link](https://www.freecodecamp.org/news/crack-passwords-using-john-the-ripper-pentesting-tutorial/) to get more information abut john.
 
 After john succesfully cracks the password we use it to unzip the file.The extracted data contains more than 200 files with the extension .gpx.GPX files can be viewed using google maps or any other mapping software.
 
